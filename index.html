@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>rose </title>
+<title>html </title>
 <meta charset="utf-8">
 
 <style>
@@ -14,7 +14,7 @@ body {
   
 }
 .content {
- background-color: #ffffff;
+ background-color: #ffb4b4;
   padding: 30px;
   text-align: center;
   text-color:#fce4ec;
@@ -22,14 +22,9 @@ body {
 }
 /* Style the top navigation bar */
 .topnav {
-  overflow: hidden;
-  background-color: rgb(255, 255, 255);
-  background-image: url("images.jpg");
-   height: 500px; 
-  background-position: center; 
-  background-repeat: no-repeat;
-  background-size: cover; 
-
+ 
+  background-color: rgb(115, 89, 116);
+padding: 10 px;
 }
 
 
@@ -37,7 +32,7 @@ body {
 
 
 .footer {
-  background-color: #f1f1f1;
+  background-color: #eec0e8;
   padding: 10px;
   height: 500px; 
   background-position: center; 
@@ -54,16 +49,26 @@ body {
 <body>
 
 <div class="content">
+<script>
+ 
+</script>
   <h1> code corner</h1>  
           <img src="images (2).jpg" alt="rose" width="700" height="200" style="float:center">
+
+          <button type="button"
+          onclick="document.getElementById('demo').innerHTML = Date()">
+          Click me to display Date and Time.</button>
+        
+          <p id="demo"></p>
 </div>
-<div class=".topnav a">
+
+
+<div class=".topnav ">
 <nav >
    
         <a href="https://alshahmeh.github.io/Wireframe/">alshahmeh</a> 
         <a href="https://dina-fouad.github.io/wireframe-102d27/">dina-fouad</a> 
-        <a href="/js/">JavaScript</a> 
-        <a href="/python/">Python</a>
+      
 
       
          
@@ -71,7 +76,7 @@ body {
  </div >
 
 
-<div >
+<div class=".topnav ">
 
  
   <ol>
@@ -82,7 +87,8 @@ body {
     Overviewing The Most Used HTML Tags
    
   </ol> 
-</div>
+
+</div class=".topnav ">
    <h2>What is HTML? The Basics of Hypertext Markup Language Explained</h2>
 <p >HTML stands for Hypertext Markup Language. It allows the user to create and structure sections, paragraphs, headings, links, and blockquotes for web pages and applications.
 
@@ -95,7 +101,7 @@ body {
 
   HTML4 (these days commonly referred to as “HTML”) was published in 1999, while the latest major version came out in 2014. Named HTML5, the update has introduced many new features to the language.
   
-  One of the most anticipated features of HTML5 is native support for audio and video embedding. Instead of using Flash player, we can simply embed videos and audio files to our web pages using the new <audio></audio> and <video></video> tags. It also includes in-built support for scalable vector graphics (SVG) and MathML for mathematical and scientific formulas.
+  One of the most anticipated features of HTML5 is native support for audio and video embedding. Instead of using Flash player, we can simply embed videos and audio files to our web pages using the new  tags. It also includes in-built support for scalable vector graphics (SVG) and MathML for mathematical and scientific formulas.
   
   HTML5 introduced a few semantic improvements as well. The new semantic tags inform browsers about the meaning of content, which benefits both readers and search engines.
 
@@ -104,9 +110,60 @@ body {
 
 
 
-  <img src="what-is-html-1-768x576.jpg" alt="rose" width="700" height="200" style="float:center">
-
+ 
 <div class="footer">
+  <img src="what-is-html-1-768x576.jpg" alt="rose" width="1000" height="200" style="float:center">
+
+
+
+  <h1> Time :</h1>
+ 
+  <button type="button"
+  onclick="document.getElementById('demo').innerHTML = Date()">
+  Click me to display Date and Time.</button>
+
+  <p id="demo"></p>
+
+
+ <script> 
+ var ma = prompt('pleas enter a number','100');
+  alert(ma +100);
+
+console.log(ma*3);
+
+
+
+if(ma <0){
+  alert(" you input negative vale");
+}
+  
+else if (ma >=0){
+  alert(" you input positive vale");
+}
+else  {
+  alert(" please enter a number");
+}
+
+
+  
+
+
+</script>
+
+    
+
+
+  <script>
+    alert ('Hello');
+   
+    var n ='NEmh';
+    // document.write("class 102d27");
+  </script>
+
+
+<button type="button" onclick="document.write('welcome in my page')">Try it</button>
+</div>
+
 
 </body>
 </html>
