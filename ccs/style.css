@@ -73,29 +73,13 @@ main section div{
     font-size: 1.3em;
     position: relative;
 }
-main section div h3{
-    font-weight: bold;
-    font-size: 1.1em;
-    margin-bottom: 15px;
-}
+
 main section div p{
     line-height: 25px;
     height: 320px;
     overflow-y: auto;
 }
-footer section div button{
-    padding:10px;
-    position: absolute;
-    bottom: 0;
-    background-color: black;
-    color: white;
-    width: 200px;
-    font-size: 19px;
-}
-/* end main  */
 
-
-/* start footer  */
 footer nav{
     background-color: #444444;
     height: auto;
